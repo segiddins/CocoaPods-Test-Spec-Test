@@ -6,4 +6,5 @@ target 'Test' do
   platform :osx, '10.10'
   use_frameworks!
   pod 'FooBar', path: '.'
+  pod 'FooBar/Tests', path: '.'
 end

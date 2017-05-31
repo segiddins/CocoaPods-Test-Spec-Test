@@ -2,9 +2,16 @@ PODS:
   - Alamofire (4.3.0)
   - FooBar (0.0.1):
     - Alamofire
+  - FooBar/Tests (0.0.1):
+    - Alamofire
+    - Nimble
+    - Quick
+  - Nimble (6.0.1)
+  - Quick (1.0.0)
 
 DEPENDENCIES:
   - FooBar (from `.`)
+  - FooBar/Tests (from `.`)
 
 EXTERNAL SOURCES:
   FooBar:
@@ -13,7 +20,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   FooBar: 9538b249676b92b942fb1c9cf525f98dec2fa87b
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: 5c09c8f5d77af67e23549a27493e3ae965631309
+PODFILE CHECKSUM: 251845c865d7f902515807ac1f5b4f9a7af4e6cd
 
 COCOAPODS: 1.2.1
