@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.3.0)
+  - FooBar (0.0.1):
+    - Alamofire
+
+DEPENDENCIES:
+  - FooBar (from `.`)
+
+EXTERNAL SOURCES:
+  FooBar:
+    :path: "."
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  FooBar: 9538b249676b92b942fb1c9cf525f98dec2fa87b
+
+PODFILE CHECKSUM: 5c09c8f5d77af67e23549a27493e3ae965631309
+
+COCOAPODS: 1.2.1
